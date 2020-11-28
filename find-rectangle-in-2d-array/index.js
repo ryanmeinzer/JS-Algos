@@ -166,7 +166,7 @@ function findRec(image1) {
     }
     // print rectangle's top-left coordinate and bottom-right coordinate
     console.log([result[0], result[result.length - 1]])
-}
+} 
 
 findRec(image1)
 

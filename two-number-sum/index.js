@@ -1,7 +1,7 @@
 //input
-array = [3, 5, -4, 8, 11, 1, -1, 6]
-targetSum = 10 
-answer = [-1, 11]
+let array = [3, 5, -4, 8, 11, 1, -1, 6]
+let targetSum = 10 
+let answer = [-1, 11]
 
 // test solution = [11, -1]
 if (twoNumberSum(array, targetSum) === answer) {

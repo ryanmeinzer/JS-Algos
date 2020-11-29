@@ -4,12 +4,11 @@ let targetSum = 10
 let answer = [-1, 11]
 
 // test solution = [11, -1]
-if (twoNumberSum(array, targetSum) === answer) {
+if (twoNumberSum(array, targetSum).toString() === answer.toString()) {
     console.log('passed')
 } else {
     console.log('failed')
 } 
-console.log(twoNumberSum(array, targetSum))
 
 // // solved with two for loops with 0(n ^ 2)
 // function twoNumberSum(array, targetSum) {

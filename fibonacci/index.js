@@ -30,3 +30,16 @@ function getNthFib(n) {
     // if not, return fib(n-1) + fib(n-2)
     return getNthFib(n - 2) + getNthFib(n - 1)
 }
+
+// // solved with memoize in 0(n)
+// function getNthFib(n, memoize = { 1: 0, 2: 1 }) {
+//     if (n === 2) return 1
+//     if (n === 1) return 0
+//     // if n is in memoize, return it
+//     if (memoize[n]) { return memoize[n] }
+//     // if not, store prior recursive formula in memoize of n
+//     memoize[n] = getNthFib(n - 2, memoize) + getNthFib(n - 1, memoize)
+//     console.log(memoize)
+//     // return memoize of n
+//     return memoize[n]
+// }

@@ -1,8 +1,6 @@
-//input
+// test
 let n = 6
 let answer = 5
-
-// test solution = [11, -1]
 if (getNthFib(n) === answer) {
     console.log('passed')
 } else {

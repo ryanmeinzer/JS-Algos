@@ -1,4 +1,4 @@
-//input
+// test
 let image1 = [
   [1, 1, 1, 1, 1, 1, 1], 
   [1, 1, 1, 1, 1, 1, 1], 
@@ -7,10 +7,9 @@ let image1 = [
   [1, 1, 1, 1, 1, 1, 1],
 ]
 let answer = [[2, 3], [3, 5]]
-
 if (findRec(image1).toString() === answer.toString()) {
   console.log('passed')
-} else {
+} else { 
   console.log('failed')
 }
 

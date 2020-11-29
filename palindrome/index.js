@@ -1,6 +1,6 @@
 //input
-string = 'abcdcba'
-answer = true
+let string = 'abcdcba'
+let answer = true
 
 // test solution = [11, -1]
 if (isPalindrome(string) === answer) {

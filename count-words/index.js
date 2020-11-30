@@ -12,8 +12,8 @@ console.log(howMany(sentence))
 function howMany(sentence) {
     // USSR
     // create results variable to hold result
-    // globally counting only words and with a hyphen
-    let result = sentence.match(/[\w\-]+/gi)
+    // globally counting only words (excluding numbers), including hyphen
+    let result = sentence.match(/[a-z'-]+/gi)
     // return result if not null and 0 if null
     return result ? result.length : 0
 }

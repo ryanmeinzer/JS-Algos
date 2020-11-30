@@ -37,3 +37,36 @@ function howMany(sentence) {
 //     // return counter
 //     return counter
 // }
+
+// take one - brute force extended without regex
+// function howMany(sentence) {
+//     // My USSR Method
+//     // Understand
+//         // reword - given a sentence, return how many words are separated by a space
+//         // inputs - a string
+//         // outputs - an integer
+//         // examples - input - 'How many eggs are there in a half-dozon, 13?' output - 7 
+//     // Sudo / Chop
+//         // using regex or not? TBD
+//         // create a counter variable 'count' set to 0
+//         let count = 0
+//         // create a validation array, 'validateArr' with a - z
+//         let validateArr = ['abcdefghijklmnopqrstuvwxyz']
+//         // create a checker array, 'checkArr' by splitting sentence string by each space
+//         let checkArr = [sentence.split(' ').join()]
+//         // console.log(checkArr)
+//         // loop through 'checkArr', evaluating each element to see if it includes 'validateArr'
+//         for (let element of checkArr) {
+//             // if element includes, increment 'count' by one
+//             // if (element.includes(validateArr))
+//             // console.log(element)
+//             // using regex - if element includes a - z, increment 'count' by one
+//             if (element.includes(/[abcdefghijklmnopqrstuvwxyz]/gi)) {
+//                 count++
+//             }
+//             // return 'count'
+//             return count
+//         }   
+//     // Solve / Skip
+//     // Refactor
+// }

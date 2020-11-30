@@ -18,25 +18,23 @@ function howMany(sentence) {
     return result ? result.length : 0
 }
 
-// // take two with just regex
-// function howMany(sentence) {
-//     // create counter variable
-//     let counter = 0
-//     // create 'checkArr' array for all elements of sentence split by a space
-//     let checkArr = [sentence.split(' ').join()]
-//     console.log(checkArr)
-//     // loop through all elements of 'checkArr'
-//     for (let i = 0; i < checkArr.length - 1; i++) {
-//         // for (let i of checkArr){
-//         // determine if the element has an alphanumeric character inside of it
-//         if (i.match(/[a-z]/gi)) {
-//             // if it does, increment counter
-//             counter++
-//         }
-//     }
-//     // return counter
-//     return counter
-// }
+// take two (solved) with single iteration loop and regex
+function howMany(sentence) {
+    // create counter variable
+    let counter = 0
+    // create 'checkArr' array for all elements of sentence split by a space
+    let checkArr = sentence.split(' ')
+    // loop through all elements of 'checkArr'
+    for (let element of checkArr){
+        // determine if the element has an alphanumeric character inside of it
+        if (element.match(/[a-z'-]+/gi)) {
+            // if it does, increment counter
+            counter++
+        }
+    }
+    // return counter
+    return counter
+}
 
 // // take one (now solved) - brute force multiple loops (terrible runtime) without regex
 // function howMany(sentence) {

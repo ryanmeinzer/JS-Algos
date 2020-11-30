@@ -8,15 +8,15 @@ if (howMany(sentence) === answer) {
 }
 // console.log(howMany(sentence))
 
-// take three (solved) with simpler regex
-function howMany(sentence) {
-    // USSR
-    // create results variable to hold result
-    // globally counting only words (excluding numbers), including hyphen
-    let result = sentence.match(/[a-z'-]+/gi)
-    // return result if not null and 0 if null
-    return result ? result.length : 0
-}
+// // take three (solved) with simpler regex
+// function howMany(sentence) {
+//     // USSR
+//     // create results variable to hold result
+//     // globally counting only words (excluding numbers), including hyphen
+//     let result = sentence.match(/[a-z'-]+/gi)
+//     // return result if not null and 0 if null
+//     return result ? result.length : 0
+// }
 
 // take two (solved) with single iteration loop and regex
 function howMany(sentence) {

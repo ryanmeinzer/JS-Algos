@@ -8,6 +8,7 @@ if (validAnagram(string1, string2) === answer) {
     console.log('failed')
 }
 
+// evaluate if two strings are anagrams of each other
 function validAnagram(string1, string2) {
     // create 'obj1'
     let obj1 = {}

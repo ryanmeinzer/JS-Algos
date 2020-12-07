@@ -1,3 +1,5 @@
+// return the branch sums from left to right of a BST
+
 // solved recursively with 0(n)
 function branchSums(node = root, runSum = 0, results = []) {
     // create (head/root) node to operate with by assigning node to provided root

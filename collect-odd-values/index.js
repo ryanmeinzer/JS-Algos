@@ -1,5 +1,5 @@
 //input
-let arr = [1, 2, 3, 4, 5]
+let arr = [1, 2, 3, 4, 5 ]
 let answer = [1, 3, 5]
 
 // test solution = [11, -1]

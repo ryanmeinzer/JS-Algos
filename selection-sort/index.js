@@ -9,6 +9,8 @@ if (selectionSort(array).toString() === answer.toString()) {
     console.log('failed')
 }
 
+// return a selection-sorted array from an array of integers
+
 function selectionSort(array) {
     // solve with nested loops
     // for all elements i of array (outer loop)

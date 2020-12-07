@@ -8,7 +8,8 @@ if (caesarCipherEncryptor(string, key) === answer) {
     console.log('failed')
 } 
 
-// given alphabetic string, return new string with each character shifted by key integer
+// return a new string with each character shifted by the 'key' integer from an alphabetic 'string'
+
 // solved with unicode values and modulo with 0(n)
 function caesarCipherEncryptor(string, key) {
     // create new array 'result' to ultimately join into resultant string

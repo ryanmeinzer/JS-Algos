@@ -7,6 +7,8 @@ if (findThreeLargestNumbers(array).toString() === answer.toString()) {
     console.log('failed')
 } 
 
+// return a sorted array of the three largest integers of an unsorted array of >3 integers
+
 // solved with 0(n)
 function findThreeLargestNumbers(array) {
     // keep track and store three largest numbers of array with 'result' array of three elements

@@ -6,6 +6,8 @@ class BST {
     }
 }
 
+// find the closest value to the target in a BST
+
 // solved iteratively with 0(n)
 function findClosestValueInBst(tree, target, closest = tree.value) {
     // instantiate function with 'closest' variable to hold the resulting value (done above)

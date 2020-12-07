@@ -9,8 +9,9 @@ if (reverse(str) === answer) {
 
 // return a reversed string
 
+// solved with reverse() 
 function reverse(str) {
-    // solved with reverse() 
+
     // return str.split('').reverse().join('')
 
     // // solve with for loop 

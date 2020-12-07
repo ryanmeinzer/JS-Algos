@@ -7,6 +7,8 @@ if (getNthFib(n) === answer) {
     console.log('failed')
 }
 
+// return the nth Fibonacci number (where Fibonacci starts with 0)
+
 // // solved with iteration with 0(n) linear runtime
 // function getNthFib(n) {
 //     // create 'results' array with first two numbers

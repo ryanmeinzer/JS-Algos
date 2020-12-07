@@ -8,6 +8,8 @@ if (insertionSort(array).toString() === answer.toString()) {
     console.log('failed')
 }
 
+// return an insertion-sorted array from an array of integers
+
 // solved in 0(n^2)
 function insertionSort(array) {
     // initialize loop for length of array, starting at second index

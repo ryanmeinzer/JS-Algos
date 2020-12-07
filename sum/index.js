@@ -12,7 +12,7 @@ if (sumRange(n) === answer) {
 // recursion
 function sumRange(n) {
     // base case and exit
-    if (n === 1) return 1
+    if (n === 0) return 0
     // different input by decrementing n
     // recurse
     return n + sumRange(n - 1)

@@ -6,6 +6,8 @@ class BinaryTree {
     }
 }
 
+// return the sum of a BT's node depths
+
 // solved recursively with 0(n)
 function nodeDepths(root, depth = 0) {
     // create running 'depth' variable with initial 0 value

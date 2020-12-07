@@ -1,4 +1,4 @@
-// tests for 1/3:
+// tests:
 let n = 5
 countDown(n)
 

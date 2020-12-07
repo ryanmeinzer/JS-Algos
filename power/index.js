@@ -17,9 +17,11 @@ function power(base, exponent) {
     return base * power(base, exponent - 1)
 }
 
-// recursion mapped out
+// recursion call stack mapped out
 // power(2, 4)
-    // 2 * power(2, 3) -> 16
-        // 2 * power(2, 2) -> 8
-            // 2 * power(2, 1) -> 4
-                // 2 * power(2, 0) -> 1
+    // 2 * power(2, 3)
+        // 2 * power(2, 2)
+            // 2 * power(2, 1)
+                // 2 * power(2, 0)
+                    // 1
+                        // 1 * 2 * 2 * 2 * 2 = 16

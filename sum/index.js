@@ -1,4 +1,4 @@
-// tests for 2/3:
+// tests:
 let n = 5
 let answer = 15
 if (sumRange(n) === answer) {

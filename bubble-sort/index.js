@@ -8,6 +8,8 @@ if (bubbleSort(array).toString() === answer.toString()) {
     console.log('failed')
 }
 
+// return a bubble-sorted array from an unsorted array of integers
+
 function bubbleSort(array) {
     // solve with nested loops
     // (find largest element of array and drag it to right-hand side)

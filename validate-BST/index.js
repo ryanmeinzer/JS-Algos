@@ -6,6 +6,8 @@ class BST {
     }
 }
 
+// validate BST
+
 // solved with 0(n)
 function validateBst(tree, min, max) {
     // if node is a leaf ie has no children ie is at the bottom, return true

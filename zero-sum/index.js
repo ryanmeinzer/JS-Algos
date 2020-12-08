@@ -8,6 +8,7 @@ if (sumZero(arr).toString() === answer.toString()) {
 }
 
 // give a sorted array of integers, find the first pair where sum is zero
+
 // optimized 0(n) runtime solution
 function sumZero(arr) {
     // assign left and right index to variables

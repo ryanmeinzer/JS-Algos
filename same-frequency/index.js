@@ -9,6 +9,7 @@ if (same(arr1, arr2) === answer) {
 }
 
 // given two arrays, evaluate if every value in the first array has it's corresponding value squared in the second array, with the same frequency
+
 // solved without nested loops in 0(n)
 function same(arr1, arr2) {
     // if the two arrays have different lengths, return false

@@ -9,6 +9,7 @@ if (returnTargetIndex(arr, target) === answer) {
 }
 
 // return index of target value in sorted array
+
 // solved with binary search (ie divide and conquer) with log(n)
 function returnTargetIndex(arr, target) {
     // initialize a 'min' index for first element of array

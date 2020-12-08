@@ -10,6 +10,7 @@ class Node {
     }
 
     // given an input empty array, traverse the tree using BFS and store all node's names into the input array then return it
+    
     breadthFirstSearch(array) {
         // create an empty working array with root node
         let workingArray = [this]

@@ -1,5 +1,9 @@
+// test
 let n = 3
 pyramid(n)
+//   #  
+//  ### 
+// #####
 
 // return a pyramid shape with N levels using the # character
 

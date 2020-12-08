@@ -7,6 +7,15 @@ if (fizzBuzz(n).toString() === answer.toString()) {
     console.log('failed')
 }
 
+// return numbers from 1 to n, but with 'fizz' for multiples of three, 'buzz' for multiples of five and 'fizzbuzz' for multiples of both three and five.
+
+// solved on one line with ternary's, logical operators and concatenation
+function fizzBuzz(n) {
+    let arr = []
+    for (let i = 1; i <= n; i++)arr.push((i % 3 ? '' : 'fizz') + (i % 5 ? '' : 'buzz') || i)
+    return arr
+}
+
 // // solved most simply with for loop, modulo and if statements
 // function fizzBuzz(n) {
 //     // create array to insert all outputs to for tests
@@ -27,10 +36,3 @@ if (fizzBuzz(n).toString() === answer.toString()) {
 //     // return array
 //     return arr
 // }
-
-// solved on one line with ternary's, logical operators and concatenation
-function fizzBuzz(n) {
-    let arr = []
-    for(let i=1;i<=n;i++)arr.push((i%3?'':'fizz')+(i%5?'':'buzz')||i)
-    return arr
-}

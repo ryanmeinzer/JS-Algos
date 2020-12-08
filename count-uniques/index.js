@@ -8,6 +8,7 @@ if (countUniqueValues(array) === answer) {
 }
 
 // count the unique values in a sorted array
+
 // solved with two pointers with 0(n)
 function countUniqueValues(array) {
     // use two pointers 'i' and 'j' starting at first two elements of array, with i starting at index of 0 and j starting at index of 1

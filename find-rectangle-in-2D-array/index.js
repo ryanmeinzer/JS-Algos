@@ -13,6 +13,8 @@ if (findRec(image1).toString() === answer.toString()) {
   console.log('failed')
 }
 
+// Given a 2D array of 1s and 0s, return the coordinate of the rectangle of 0s
+
 // USSR
 // Understand - 
 // reword - given a 2D array of 1s and 0s, return the coordinate of the rectangle of 0s

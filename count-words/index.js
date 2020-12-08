@@ -8,6 +8,8 @@ if (howMany(sentence) === answer) {
 }
 // console.log(howMany(sentence))
 
+// return the count of words in a sentence, with a hyphenated word counting as a single word and with numbers not counted as a word
+
 // take three (solved) with simpler regex
 function howMany(sentence) {
     // USSR

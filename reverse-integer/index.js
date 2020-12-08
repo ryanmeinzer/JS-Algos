@@ -9,6 +9,7 @@ if (reverseInt(n) === answer) {
 
 // return a reversed integer
 
+// solved with parseInt, split, reverse, joing and Math.sign"
 function reverseInt(n) {
     return parseInt(n.toString().split('').reverse().join('')) * Math.sign(n)
 }

@@ -9,6 +9,14 @@ if (getNthFib(n) === answer) {
 
 // return the nth Fibonacci number (where Fibonacci starts with 0)
 
+// solved with recursion with 0(2^n)
+function getNthFib(n) {
+    if (n === 2) return 1
+    if (n === 1) return 0
+    // if not, return fib(n-1) + fib(n-2)
+    return getNthFib(n - 2) + getNthFib(n - 1)
+}
+
 // // solved with iteration with 0(n) linear runtime
 // function getNthFib(n) {
 //     // create 'results' array with first two numbers
@@ -22,14 +30,6 @@ if (getNthFib(n) === answer) {
 //     }
 //     return results[n - 1]
 // }
-
-// solved with recursion with 0(2^n)
-function getNthFib(n) {
-    if (n === 2) return 1
-    if (n === 1) return 0
-    // if not, return fib(n-1) + fib(n-2)
-    return getNthFib(n - 2) + getNthFib(n - 1)
-}
 
 // // solved with memoize in 0(n)
 // function getNthFib(n, memoize = { 1: 0, 2: 1 }) {

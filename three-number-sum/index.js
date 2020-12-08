@@ -1,3 +1,5 @@
+// incomplete
+
 function threeNumberSum(array, targetSum) {
     // starting
     // sort array 

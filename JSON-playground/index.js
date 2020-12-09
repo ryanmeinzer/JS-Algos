@@ -10,12 +10,23 @@ const data = require('./data.json')
 // console.log(myJSON)
 // console.log(myObj)
 
-function printEmployees(data) {
+function printNames(data) {
     let arr = []
-        for (let el in data.employees) {
-            arr.push(data.employees[el].firstName)
+        for (let el in data.dogs) {
+            arr.push(data.dogs[el].name)
         }
-    console.log(arr)
+    console.log('names:', arr)
 }
 
-printEmployees(data)
+printNames(data)
+
+function printAges(data) {
+    let arr = []
+    for (let el in data.dogs) {
+        arr.push(data.dogs[el].age)
+    }
+    console.log('ages:', arr)
+    console.log('sum of ages:', arr.reduce((a, b) => a + b, 0))
+}
+
+printAges(data)

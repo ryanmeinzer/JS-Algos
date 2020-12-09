@@ -1,16 +1,19 @@
 {
-    "employees": [
+    "dogs": [
         {
-            "firstName": "John",
-            "lastName": "Doe"
+            "name": "Sparky",
+            "breed": "German Shephard",
+            "age": 8
         },
         {
-            "firstName": "Anna",
-            "lastName": "Smith"
+            "name": "Muffles",
+            "breed": "Bulldog",
+            "age": 5
         },
         {
-            "firstName": "Peter",
-            "lastName": "Jones"
+            "name": "Lickie",
+            "breed": "Corgi",
+            "age": 6
         }
     ]
 }

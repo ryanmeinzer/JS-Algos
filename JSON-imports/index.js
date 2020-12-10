@@ -6,7 +6,7 @@ const data = require('./data.json')
 // // convert JSON string data into an object
 // let myObj = JSON.parse(myJSON)
 
-// console.log(data)
+console.log(data)
 // console.log(myJSON)
 // console.log(myObj)
 

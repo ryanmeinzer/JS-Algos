@@ -1,0 +1,22 @@
+{
+    "jsonData": [
+        {
+            "string": "string",
+            "number": 8
+        },
+        {
+            "boolean": true,
+            "array": [
+                1,
+                2,
+                3
+            ]
+        },
+        {
+            "object": {
+                "string": null,
+                "number": 13
+            }
+        }
+    ]
+}

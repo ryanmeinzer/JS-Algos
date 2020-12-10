@@ -25,6 +25,7 @@ function collectOddValues(arr) {
     // assign newArr to first value of array concatenated with the rest of the recursed 
     newArr = newArr.concat(collectOddValues(arr.slice(1)))
     // recurse
+    // debugger
     return newArr
 }
 

@@ -12,6 +12,7 @@ function countDown(n) {
         return console.log('done ;)')
     }
     console.log(n)
+    // debugger
     // different input by decrementing n 
     n--
     // recurse
@@ -23,6 +24,7 @@ function countDown(n) {
 //     // iterate through with loop
 //     for (let i = n; i > 0; i--) {
 //         console.log(i)
+//         debugger
 //     }
 //     // once exits loop
 //     console.log('done ;)')

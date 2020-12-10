@@ -6,7 +6,7 @@ let rideString = ridesArray[0]
 
 console.log(makeArray(rideString))
 
-// create operable rideArray from rideString
+// create operable rideArray from rideString 
 function makeArray(rideString) {
     let rideArray = rideString.split(",")
     for (let i = 0; i < rideArray.length; i++) {

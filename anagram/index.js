@@ -12,7 +12,7 @@ if (validAnagram(string1, string2) === answer) {
     console.log('failed')
 }
 
-// evaluate if two strings are anagrams of each other
+// evaluate if two strings are anagrams of each other 
 
 // solved with regex and sort
 function validAnagram(string1, string2) {

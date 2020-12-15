@@ -7,7 +7,7 @@ if (countUniqueValues(array) === answer) {
     console.log('failed')
 }
 
-// count the unique values in a sorted array
+// count the unique values in a sorted array 
 
 // solved with two pointers with 0(n)
 function countUniqueValues(array) {

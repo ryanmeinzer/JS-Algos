@@ -24,7 +24,7 @@ function convertToObject(data) {
     }
 }
 
-// return a string with each word capitalized
+// return a string with each word capitalized 
 
 // solved with loop, push and slice
 function capitalize(str) {

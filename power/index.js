@@ -8,7 +8,7 @@ if (power(base, exponent) === answer) {
     console.log('failed')
 }
 
-// return the power of a 'base' to an 'exponent' recursively
+// return the power of a 'base' to an 'exponent' recursively 
 
 function power(base, exponent) {
     // base case with exit

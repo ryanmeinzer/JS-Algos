@@ -8,7 +8,7 @@ if (isValidSubsequence(array, sequence).toString() === answer.toString()) {
     console.log('failed')
 } 
 
-// validates if a second array 'sequence' is a subsequence of the first array of integers
+// validate if a second array 'sequence' is a subsequence of the first array of integers 
 
 // // solved a bit tediously with two indexes
 // function isValidSubsequence(array, sequence) {

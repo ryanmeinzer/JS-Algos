@@ -7,7 +7,7 @@ if (sumRange(n) === answer) {
     console.log('failed')
 } 
 
-// write a function with iteration then recursion that sums all integers from 0 to n
+// write a function with iteration then recursion that sums all integers from 0 to n 
 
 // recursion
 function sumRange(n) {

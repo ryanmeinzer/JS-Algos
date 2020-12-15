@@ -9,7 +9,7 @@ if (selectionSort(array).toString() === answer.toString()) {
     console.log('failed')
 }
 
-// return a selection-sorted array from an array of integers
+// return a selection-sorted array from an array of integers 
 
 function selectionSort(array) {
     // solve with nested loops

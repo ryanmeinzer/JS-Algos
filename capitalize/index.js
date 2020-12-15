@@ -1,10 +1,27 @@
+const fs = require('fs')
+
 // test
-let str = 'Look here, this is a capitalized string.'
-let answer = 'Look Here, This Is A Capitalized String.'
-if (capitalize(str) === answer) {
-    console.log('passed')
-} else {
-    console.log('failed')
+// let str = 'Look here, this is a capitalized string.'
+const myPromise = new Promise(function (resolve, reject) {
+    fs.readFile('./data.json', (err, data) => {
+        if (err) reject(err + ' bad fail')
+        resolve(data)
+    })
+})
+myPromise
+    // .then and .catch need a callback/function
+    // 'data' and 'err' can be named anything, are referencing 'resolve' and 'reject'
+    .then(data => convertToObject(data))
+    .catch(err => console.log('fail!', err))
+function convertToObject(data) {
+    let myObj = JSON.parse(data)
+    // capitalize(myObj.strings[0].string)
+    let answer = 'Look Here, This Is A Capitalized String.'
+    if (capitalize(myObj.strings[0].string) === answer) {
+        console.log('passed')
+    } else {
+        console.log('failed')
+    }
 }
 
 // return a string with each word capitalized

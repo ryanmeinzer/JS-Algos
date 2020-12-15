@@ -5,7 +5,7 @@ steps(n)
 // '## '
 // '###'
 
-// return a steps shape with N levels using the # character
+// return a steps shape with N levels using the # character 
 
 // solved with recursion
 function steps(n, row = 0, stair = '', increment = 1) {

@@ -9,7 +9,7 @@ if (collectOddValues(arr).toString() === answer.toString()) {
     console.log('failed')
 }
 
-// return all odd values of an array
+// return all odd values of an array 
 
 // solved with pure recursion
 function collectOddValues(arr) {

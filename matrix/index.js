@@ -8,7 +8,7 @@ if (JSON.stringify(matrix(n)) === JSON.stringify(answer)) {
     console.log('failed')
 }
 
-// return a NxN spiral matrix of n
+// return a NxN spiral matrix of n 
 
 // solved with many loops
 function matrix(n) {

@@ -6,7 +6,7 @@ if (maxChar(str) === answer) {
     console.log('failed')
 }
 
-// return the most common character of a string
+// return the most common character of a string 
 
 // solved with character mapping in an object
 function maxChar(str) {

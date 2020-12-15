@@ -5,7 +5,7 @@ pyramid(n)
 //  ### 
 // #####
 
-// return a pyramid shape with N levels using the # character
+// return a pyramid shape with N levels using the # character 
 
 // solved with recursion
 function pyramid(n, row = 0, level = '', increment = 1) {

@@ -8,7 +8,7 @@ if (maxSubarraySum(arr, n) === answer) {
     console.log('failed')
 }
 
-// find largest sum of n consecutive integers of arr
+// find largest sum of n consecutive integers of arr 
 
 // solved with sliding window pattern with 0(n)
 function maxSubarraySum(arr, n) {

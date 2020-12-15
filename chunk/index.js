@@ -7,7 +7,7 @@ if (JSON.stringify(chunk(array, size)) === JSON.stringify(answer)) {
     console.log('failed')
 }
 
-// return 'chunked' subarrays of given length size
+// return 'chunked' subarrays of given length size 
 
 // solved with loop, push and slice
 function chunk(array, size) {

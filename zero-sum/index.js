@@ -7,7 +7,7 @@ if (sumZero(arr).toString() === answer.toString()) {
     console.log('failed')
 }
 
-// give a sorted array of integers, find the first pair where sum is zero
+// give a sorted array of integers, find the first pair where sum is zero 
 
 // optimized 0(n) runtime solution
 function sumZero(arr) {

@@ -7,7 +7,7 @@ if (fizzBuzz(n).toString() === answer.toString()) {
     console.log('failed')
 }
 
-// return numbers from 1 to n, but with 'fizz' for multiples of three, 'buzz' for multiples of five and 'fizzbuzz' for multiples of both three and five.
+// return numbers from 1 to n, but with 'fizz' for multiples of three, 'buzz' for multiples of five and 'fizzbuzz' for multiples of both three and five. 
 
 // solved on one line with ternary's, logical operators and concatenation
 function fizzBuzz(n) {

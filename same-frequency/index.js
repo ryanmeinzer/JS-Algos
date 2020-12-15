@@ -8,7 +8,7 @@ if (same(arr1, arr2) === answer) {
     console.log('failed')
 }
 
-// given two arrays, evaluate if every value in the first array has it's corresponding value squared in the second array, with the same frequency
+// given two arrays, evaluate if every value in the first array has it's corresponding value squared in the second array, with the same frequency 
 
 // solved without nested loops in 0(n)
 function same(arr1, arr2) {

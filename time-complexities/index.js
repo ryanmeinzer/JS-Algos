@@ -37,5 +37,5 @@ Exponential         0(c^n)              1 to 20-30                  Subsets     
 
 Factorial           0(n!)               1 to 12                     Permutations, Travelling Salesman   time increases by n!
 
-*/
+*/ 
 

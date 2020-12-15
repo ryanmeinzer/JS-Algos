@@ -7,7 +7,7 @@ if (reverse(str) === answer) {
     console.log('failed')
 }
 
-// return a reversed string
+// return a reversed string 
 
 // solved with reverse() 
 function reverse(str) {

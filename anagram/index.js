@@ -1,6 +1,10 @@
+const data = require('./data.json')
+
 // test
-let string1 = 'anagram'
-let string2 = 'nagaram'
+// let string1 = 'anagram'
+// let string2 = 'nagaram'
+let string1 = data.jsonData[0].string1
+let string2 = data.jsonData[1].string2
 let answer = true
 if (validAnagram(string1, string2) === answer) {
     console.log('passed')

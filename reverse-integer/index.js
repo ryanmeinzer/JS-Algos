@@ -7,7 +7,7 @@ if (reverseInt(n) === answer) {
     console.log('failed')
 }
 
-// return a reversed integer
+// return a reversed integer 
 
 // solved with parseInt, split, reverse, joing and Math.sign"
 function reverseInt(n) {

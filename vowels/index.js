@@ -7,7 +7,7 @@ if (vowels(str) === answer) {
     console.log('failed')
 }
 
-// return the number/frequency of vowels of a string
+// return the number/frequency of vowels of a string 
 
 // solved with regex
 function vowels(str) {

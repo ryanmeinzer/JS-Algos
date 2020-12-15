@@ -2,7 +2,7 @@
 let n = 5
 countDown(n)
 
-// write a function with iteration then recursion that counts down numbers
+// write a function with iteration then recursion that counts down numbers 
 
 // recursion
 function countDown(n) {

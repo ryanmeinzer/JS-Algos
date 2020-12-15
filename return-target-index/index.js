@@ -8,7 +8,7 @@ if (returnTargetIndex(arr, target) === answer) {
     console.log('failed')
 }
 
-// return index of target value in sorted array
+// return index of target value in sorted array 
 
 // solved with binary search (ie divide and conquer) with log(n)
 function returnTargetIndex(arr, target) {

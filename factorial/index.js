@@ -7,7 +7,7 @@ if (factorial(n) === answer) {
     console.log('failed')
 }
 
-// write a funcdtion with iteration and recursion that multiplies all integers from 0 to n 
+// write a function with iteration and recursion that multiplies all integers from 0 to n 
 
 // recursion
 function factorial(n) {

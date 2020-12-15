@@ -9,7 +9,7 @@ if (isPalindrome(string) === answer) {
     console.log('failed')
 }
 
-// validates if a non-empty string is a palindrome
+// validates if a non-empty string is a palindrome 
 
 function isPalindrome(string) {
     // solved with reverse

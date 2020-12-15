@@ -9,7 +9,7 @@ if (binarySearch(array, target) === 3) {
     console.log('failed')
 } 
 
-// using BS, return the index of a target integer within an array, or -1 if not found
+// using BS, return the index of a target integer within an array, or -1 if not found 
 
 // solved with iteration with  runtime
 function binarySearch(array, target, left = 0, right = array.length - 1) {

@@ -8,7 +8,7 @@ if (productSum(array, multiplier = 1) === 12) {
     console.log('failed')
 } 
 
-// return the product sum of a 'special' array, which is an array containing either integers or a sub 'special' array where its integers are summed then multiplied by their level of depth
+// return the product sum of a 'special' array, which is an array containing either integers or a sub 'special' array where its integers are summed then multiplied by their level of depth 
 
 // initialize with a multipler variable set to 1
 function productSum(array, multiplier = 1) {

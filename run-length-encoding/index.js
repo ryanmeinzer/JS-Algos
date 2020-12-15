@@ -7,7 +7,7 @@ if (runLengthEncoding(string) === answer) {
     console.log('failed')
 }
 
-// return the run-length encoding of a non-empty string, with 'long runs' (<10 characters) split
+// return the run-length encoding of a non-empty string, with 'long runs' (<10 characters) split 
 
 // lossless without 'long runs' of 10, with 0(n)
 function runLengthEncoding(string) {

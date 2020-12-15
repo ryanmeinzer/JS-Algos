@@ -7,7 +7,7 @@ if (productOfArray(arr) === answer) {
     console.log('failed')
 }
 
-// return the product of all numbers in an array
+// return the product of all numbers in an array 
 
 function productOfArray(arr) {
     // base with exit

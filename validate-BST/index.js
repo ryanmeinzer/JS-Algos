@@ -6,7 +6,7 @@ class BST {
     }
 }
 
-// validate BST
+// validate BST 
 
 // solved with 0(n)
 function validateBst(tree, min, max) {

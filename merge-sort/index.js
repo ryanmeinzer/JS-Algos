@@ -9,7 +9,7 @@ if (mergeSort(arr).toString() === answer.toString()) {
     console.log('failed')
 }
 
-// return a merge-sorted array from an array of integers
+// return a merge-sorted array from an array of integers 
 
 // solved with recursion and helper method
 function mergeSort(arr) {

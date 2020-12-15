@@ -10,7 +10,7 @@ if (twoNumberSum(array, targetSum).toString() === answer.toString()) {
     console.log('failed')
 } 
 
-// given an array of distinct integers, return any two numbers that equal the target sum
+// given an array of distinct integers, return any two numbers that equal the target sum 
 
 // // solved with two for loops with 0(n ^ 2)
 // function twoNumberSum(array, targetSum) {

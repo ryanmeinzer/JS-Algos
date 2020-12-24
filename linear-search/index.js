@@ -8,7 +8,7 @@ if (linearSearch(arr, val) === answer) {
     console.log('failed')
 }
 
-// create a linear search function return a value's index if found in array
+// create a linear search function to return a value's index if found in array
 
 // solved with 0(n)
 function linearSearch(arr, val) {

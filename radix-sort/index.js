@@ -9,6 +9,7 @@ if (radixSort(arr).toString() === answer.toString()) {
 
 // radix-sort an array of integers
 
+// solve in 0(nk)
 function radixSort(nums) {
     // define a function with a list of numbers
     // determine how many digits the largest numbers has for respective loops

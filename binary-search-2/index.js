@@ -10,7 +10,7 @@ if (binarySearch(arr, val) === answer) {
 
 // create a binary search function to return a value's index if found in a sorted array
 
-// solved with 0(log n)
+// solved with 0(log n) 
 function binarySearch(arr, val) {
     // create a left pointer at the start of array
     let left = 0

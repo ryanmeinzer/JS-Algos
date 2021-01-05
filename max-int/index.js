@@ -1,6 +1,6 @@
 let arr = [1, 4, 6, 3, 8]
 let answer = 8
-if (maxOf(str) === answer) {
+if (maxOf(arr) === answer) {
     console.log('passed')
 } else {
     console.log('failed')

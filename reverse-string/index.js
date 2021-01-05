@@ -9,25 +9,33 @@ if (reverse(str) === answer) {
 
 // return a reversed string 
 
-// solved with reverse() 
+// solved with recursion
 function reverse(str) {
-
-    // return str.split('').reverse().join('')
-
-    // // solve with for loop 
-    let reversed = ''
-    // for (let i = 0; i < str.length; i++){
-    //     reversed = str[i] + reversed
-    for (let character of str) {
-        reversed = character + reversed
-        // debugger
+    // base case
+    if (str.length == 1) {
+        return str
+    } else {
+        // recurse, flipping respective characters via native substring method
+        return reverse(str.substring(1)) + str[0]
     }
-    return reversed
-    // console.log(reversed)
-
-    // solved with reduce 
-    //     return str.split('').reduce((reversed, character) => character + reversed, '')
-
 }
+
+// // solved with reverse() 
+// function reverse(str) {
+//     // return str.split('').reverse().join('')
+//     // // solve with for loop 
+//     let reversed = ''
+//     // for (let i = 0; i < str.length; i++){
+//     //     reversed = str[i] + reversed
+//     for (let character of str) {
+//         reversed = character + reversed
+//         // debugger
+//     }
+//     return reversed
+//     // console.log(reversed)
+
+//     // solved with reduce 
+//     //     return str.split('').reduce((reversed, character) => character + reversed, '')
+// }
 
 reverse(str)

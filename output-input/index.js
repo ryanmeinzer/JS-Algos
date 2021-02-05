@@ -1,13 +1,14 @@
 // test
 let input = "aaaabbbcca"
-let answer = `[("a", 4), ("b", 3), ("c", 2), ("a", 1)]`
+let output = `[("a", 4), ("b", 3), ("c", 2), ("a", 1)]`
 // if (outputInput(input).toString() === answer.toString()) {
-if (JSON.stringify(outputInput(input)) === JSON.stringify(answer)) {
+if (JSON.stringify(outputInput(input)) === JSON.stringify(output)) {
     console.log('passed')
 } else {
     console.log('failed')
 }
 
+// convert the input to the output
 function outputInput(input) {
     tempArr = []
     let count = 1

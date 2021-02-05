@@ -1,7 +1,6 @@
 // test
 let input = "aaaabbbcca"
 let output = `[("a", 4), ("b", 3), ("c", 2), ("a", 1)]`
-// if (outputInput(input).toString() === answer.toString()) {
 if (JSON.stringify(outputInput(input)) === JSON.stringify(output)) {
     console.log('passed')
 } else {

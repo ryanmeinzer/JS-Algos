@@ -13,3 +13,14 @@ function maxOf(arr) {
     // change input by recursion
     return Math.max(arr.pop(), maxOf(arr))
 }
+
+// // solved with loop
+// function maxOf(arr) {
+//     let max_num = Number.NEGATIVE_INFINITY
+//     for (let num of arr) {
+//         if (num > max_num) {
+//             max_num = num
+//         }
+//     }
+//     return max_num;
+// }

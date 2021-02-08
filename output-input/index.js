@@ -9,7 +9,7 @@ if (JSON.stringify(outputInput(input)) === JSON.stringify(output)) {
 
 // convert the input to the output
 function outputInput(input) {
-    tempArr = []
+    let tempArr = []
     let count = 1
     for (let i = 0; i < input.length; i++) {
         if (input[i] === input[i + 1]) {

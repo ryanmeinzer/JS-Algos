@@ -7,7 +7,7 @@ if (JSON.stringify(outputInput(input)) === JSON.stringify(output)) {
     console.log('failed')
 }
 
-// convert the input to the output
+// convert the input to the output 
 function outputInput(input) {
     let tempArr = []
     let count = 1

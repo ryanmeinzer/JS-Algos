@@ -19,19 +19,13 @@ const rateLimiter = () => {
     }
 }
 
-const firstSecondTest = () => {
-    setTimeout(sayHello, 50)
-    setTimeout(sayHello, 100)
-    setTimeout(sayHello, 150)
-    setTimeout(sayHello, 200)
-    setTimeout(sayHello, 250)
-    setTimeout(sayHello, 300)
-    setTimeout(sayHello, 350)
-    setTimeout(sayHello, 400)
-    setTimeout(sayHello, 450)
-    setTimeout(sayHello, 500)
-    // out of bounds
-    setTimeout(sayHello, 550)
+const firstSecondTest = (increment = 50) => {
+    if (increment >= 1000) {
+        return console.log('done!')
+    }
+    setTimeout(sayHello, increment)
+    increment = increment + 50
+    return firstSecondTest(increment)
 }
 
-firstSecondTest()
+firstSecondTest(100)

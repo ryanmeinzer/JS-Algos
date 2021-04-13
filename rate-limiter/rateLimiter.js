@@ -9,7 +9,7 @@ function sayHello() {
     rateLimiter()
 }
 
-function rateLimiter() {
+const rateLimiter = () => {
     // console.time('sayHello')
     if (logs.length < 11 || tenthIndexWindow >= 1000) {
     // console.timeEnd('sayHello')
@@ -20,18 +20,18 @@ function rateLimiter() {
 }
 
 const firstSecondTest = () => {
+    setTimeout(sayHello, 50)
     setTimeout(sayHello, 100)
+    setTimeout(sayHello, 150)
     setTimeout(sayHello, 200)
+    setTimeout(sayHello, 250)
     setTimeout(sayHello, 300)
+    setTimeout(sayHello, 350)
     setTimeout(sayHello, 400)
-    setTimeout(sayHello, 500)
-    setTimeout(sayHello, 600)
-    setTimeout(sayHello, 700)
-    setTimeout(sayHello, 800)
-    setTimeout(sayHello, 900)
-    setTimeout(sayHello, 950)
+    setTimeout(sayHello, 450)
+    setTimeout(sayHello, 500)
     // out of bounds
-    setTimeout(sayHello, 1000)
+    setTimeout(sayHello, 550)
 }
 
 firstSecondTest()
